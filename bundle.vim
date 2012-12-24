@@ -8,17 +8,32 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
-" My Bundles here:
-"
+
+" ----------------
+" Fast navigation
+" ----------------
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tsaleh/vim-matchit'
+
+
+" ----------------
+" IDE feature
+" ----------------
 Bundle 'Lokaltog/vim-powerline'
 
 " ----------------
+" Syntax/Indent for language enhancement
+" ----------------
+"markdown language
+Bundle 'tpope/vim-markdown'
+
+
+" ----------------
 " Color Scheme
-" -----------------
+" ----------------
 Bundle 'rickharris/vim-blackboard'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'rickharris/vim-monokai'
 Bundle 'tpope/vim-vividchalk'
-
 
 filetype plugin indent on  " required!
