@@ -1,21 +1,7 @@
-set nocompatible
-filetype off
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
-
-" My Bundles here:
-"
-Bundle 'Lokaltog/vim-powerline'
-
+source ~/.vim/bundle.vim
 
 set laststatus=2
 
-filetype plugin indent on
 syntax on
 set autoindent
 set smartindent
