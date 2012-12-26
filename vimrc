@@ -12,7 +12,7 @@ filetype off
 filetype plugin indent on
 
 " color theme
-color blackboard
+color desert
 
 " search operations
 set incsearch
