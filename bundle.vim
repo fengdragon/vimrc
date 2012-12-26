@@ -1,5 +1,5 @@
 set nocompatible
-" filetype off
+filetype off
 
 set rtp+=$VIM/bundle/vundle/
 call vundle#rc('$VIM/bundle/')
