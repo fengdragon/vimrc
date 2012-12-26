@@ -4,12 +4,12 @@ source ~/.vim/bundle.vim
 set encoding=utf-8
 set fileencodings=utf-8,chinese,latin1
 
-" enable filetype detection and ft specifig plugin/indent
-filetype plugin indent on
-
 " enable syntax hightlight and completion
-syntax enable
 syntax on
+
+" enable filetype detection and ft specifig plugin/indent
+filetype off
+filetype plugin indent on
 
 " color theme
 color blackboard

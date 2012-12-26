@@ -1,5 +1,5 @@
 set nocompatible
-filetype off
+" filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -25,7 +25,7 @@ Bundle 'Lokaltog/vim-powerline'
 " Syntax/Indent for language enhancement
 " ----------------
 "markdown language
-Bundle 'tpope/vim-markdown'
+Bundle 'Markdown'
 
 
 " ----------------
