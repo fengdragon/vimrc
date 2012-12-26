@@ -5,6 +5,7 @@ set encoding=utf-8
 set fileencodings=utf-8,chinese,latin1
 
 " enable syntax hightlight and completion
+syntax enable
 syntax on
 
 " enable filetype detection and ft specifig plugin/indent
@@ -12,7 +13,8 @@ filetype off
 filetype plugin indent on
 
 " color theme
-color blackboard
+set background=dark
+color solarized
 
 " search operations
 set incsearch
