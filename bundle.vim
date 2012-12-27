@@ -8,6 +8,10 @@ call vundle#rc('$VIM/bundle/')
 " required!
 Bundle 'gmarik/vundle'
 
+" ----------------
+" Code Completions
+" ----------------
+Bundle 'mattn/zencoding-vim'
 
 " ----------------
 " Fast navigation
