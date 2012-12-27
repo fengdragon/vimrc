@@ -20,6 +20,8 @@ Bundle 'tsaleh/vim-matchit'
 " IDE feature
 " ----------------
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'scrooloose/nerdtree'
+Bundle 'humiaozuzu/TabBar'
 
 " ----------------
 " Syntax/Indent for language enhancement

@@ -25,6 +25,7 @@ set backspace=indent,eol,start          " More powerful backspacing
 
 " display settings
 set laststatus=2
+set t_Co=256
 
 " Default Indentation
 set autoindent
@@ -37,3 +38,28 @@ set expandtab           " expand tab to space
 " easy-motion
 let g:EasyMotion_leader_key = '<Leader>'
 
+" Nerd Tree
+let NERDChristmasTree=0
+let NERDTreeWinSize=30
+let NERDTreeChDirMode=2
+let NERDTreeIgnore=['\vimR', '\~$', '\.pyc$', '\.swp$']
+let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\~$']
+let NERDTreeShowBookmarks=1
+let NERDTreeWinPos = "right"
+
+" tabbar
+let g:Tb_MaxSize = 2
+let g:Tb_TabWrap = 1
+hi Tb_Normal guifg=white ctermfg=white
+hi Tb_Changed guifg=green ctermfg=green
+hi Tb_VisibleNormal ctermbg=252 ctermfg=235
+hi Tb_VisibleChanged guifg=green ctermbg=252 ctermfg=white
+
+" for MacVim
+if has("gui_running")
+    set go=aAce         " remove toolbar
+    set guifont=Monaco:h13
+    set showtabline=2
+    set columns=140
+    set lines=40
+endif
