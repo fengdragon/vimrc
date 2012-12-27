@@ -63,3 +63,9 @@ if has("gui_running")
     set columns=140
     set lines=40
 endif
+
+" typo vim
+:command W w
+:command WQ wq
+:command Wq wq
+:command Q q
