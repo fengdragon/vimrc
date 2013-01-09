@@ -8,6 +8,10 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+" ----------------
+" Code Completions
+" ----------------
+Bundle 'mattn/zencoding-vim'
 
 " ----------------
 " Fast navigation
@@ -20,6 +24,8 @@ Bundle 'tsaleh/vim-matchit'
 " IDE feature
 " ----------------
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'scrooloose/nerdtree'
+Bundle 'vim-scripts/TabBar'
 
 " ----------------
 " Syntax/Indent for language enhancement
