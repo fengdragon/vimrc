@@ -53,6 +53,9 @@ hi Tb_Changed guifg=green ctermfg=green
 hi Tb_VisibleNormal ctermbg=252 ctermfg=235
 hi Tb_VisibleChanged guifg=green ctermbg=252 ctermfg=white
 
+" ZenCoding
+let g:user_zen_expandabbr_key='<C-j>'
+
 " typo vim
 :command W w
 :command WQ wq
