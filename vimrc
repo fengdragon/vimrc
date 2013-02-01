@@ -13,8 +13,9 @@ filetype off
 filetype plugin indent on
 
 " color theme
-color desert
-" color solarized
+" color desert
+set background=dark
+color solarized
 
 " search operations
 set incsearch
