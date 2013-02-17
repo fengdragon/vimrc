@@ -23,15 +23,15 @@ Bundle 'tsaleh/vim-matchit'
 " ----------------
 " IDE feature
 " ----------------
+Bundle 'fengdragon/TabBar.git'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/nerdtree'
-Bundle 'vim-scripts/TabBar'
 
 " ----------------
 " Syntax/Indent for language enhancement
 " ----------------
 "markdown language
-Bundle 'Markdown'
+Bundle 'plasticboy/vim-markdown'
 
 
 " ----------------
