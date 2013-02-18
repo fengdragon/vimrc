@@ -31,8 +31,7 @@ Bundle 'vim-scripts/TabBar'
 " Syntax/Indent for language enhancement
 " ----------------
 "markdown language
-Bundle 'Markdown'
-
+Bundle 'plasticboy/vim-markdown'
 
 " ----------------
 " Color Scheme
