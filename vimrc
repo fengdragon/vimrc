@@ -15,7 +15,7 @@ filetype plugin indent on
 " color theme
 " color desert
 set background=dark
-color solarized
+colorscheme solarized
 
 " search operations
 set incsearch
@@ -26,6 +26,7 @@ set backspace=indent,eol,start          " More powerful backspacing
 
 " display settings
 set laststatus=2
+set nu
 
 " Default Indentation
 set autoindent
