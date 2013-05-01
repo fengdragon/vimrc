@@ -13,8 +13,9 @@ filetype off
 filetype plugin indent on
 
 " color theme
+let g:solarized_termcolors = 256
 set background=dark
-color solarized
+colorscheme solarized
 
 " search operations
 set incsearch
