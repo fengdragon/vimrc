@@ -26,6 +26,7 @@ set backspace=indent,eol,start          " More powerful backspacing
 
 " display settings
 set laststatus=2
+set t_Co=256
 set nu
 
 " Default Indentation
